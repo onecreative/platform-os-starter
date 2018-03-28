@@ -1,0 +1,6 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+.marketplace-kit
+marketplace_builder/.svn/
+tmp/
+src/node_modules
