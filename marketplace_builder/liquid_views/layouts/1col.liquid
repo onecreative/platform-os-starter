@@ -1,0 +1,19 @@
+{%- include 'partials/layout/constants' -%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{%- include 'partials/layout/head' -%}
+</head>
+<body class="{%- if is_logged_in -%}logged-in{%- endif -%}">
+	<header>
+		{%- include 'partials/layout/header' -%}
+	</header>
+	<main>
+		{{content_for_layout}}
+	</main>
+	<footer>
+		{%- include 'partials/layout/footer' -%}
+	</footer>
+	{%- include 'partials/layout/foot' -%}
+</body>
+</html>
