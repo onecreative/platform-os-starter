@@ -3,4 +3,4 @@
 .marketplace-kit
 marketplace_builder/.svn/
 tmp/
-src/node_modules
+node_modules/
