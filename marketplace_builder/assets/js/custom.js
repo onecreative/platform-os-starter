@@ -2,7 +2,7 @@ function ready(fn) {if (document.attachEvent ? document.readyState === 'complete
 
 ready(function() {
   let doc = document;
-  let body = (typeof $ !== 'undefined' && $ instanceof jQuery) ? $(doc.body) : doc.body;
+  let body = (typeof $ !== 'undefined') ? $(doc.body) : doc.body;
 
   let scripts = {
     utils: {
